@@ -2,7 +2,7 @@
 
 Un sistema relazionale completo per la gestione del FantaSanremo, progettato e implementato come progetto d'esame (12 CFU) per il corso di Basi di Dati. Il database modella e gestisce la logica di gioco del festival, inclusi utenti, squadre, leghe (pubbliche, private, segrete), artisti, brani, votazioni delle giurie (tecnica, demoscopica, pubblico) e l'assegnazione dinamica di bonus e malus.
 
-## 🚀 Funzionalità Principali
+## Funzionalità Principali
 
 Il progetto copre l'intero ciclo di vita di un database relazionale, partendo dall'analisi dei requisiti fino all'ottimizzazione delle performance:
 
@@ -16,12 +16,12 @@ Il progetto copre l'intero ciclo di vita di un database relazionale, partendo da
 *   **Sicurezza e Controllo Accessi**: Implementazione di una rigida gerarchia di privilegi tramite i ruoli di PostgreSQL (`proprietario`, `amministratore`, `utente_premium`, `utente_semplice`), con assegnazione granulare dei permessi (GRANT/REVOKE).
 *   **Data Populating in the Large**: Scripting per l'inserimento massivo di centinaia di record per stress-testare lo schema fisico e le performance del database.
 
-## 🛠️ Tecnologie Utilizzate
+## Tecnologie Utilizzate
 *   **Database Management System**: PostgreSQL tramite interfaccia pgAdmin
 *   **Linguaggi**: SQL, PL/pgSQL
 *   **Modellazione Dati**: Progettazione Concettuale (Diagrammi ER)
 
-## 👥 Autori (Gruppo 63)
+## Autori (Gruppo 63)
 *   **Andrea Peri** (Matricola: 541544)
 *   **Jeffrey Germano** (Matricola: 5669424)
 *   **Alessio Giorno** (Matricola: 5590816)
